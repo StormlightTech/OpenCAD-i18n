@@ -90,9 +90,9 @@ $arrLang['language'] = "Taal";
 $arrLang['license'] = "Licentie";
 $arrLang['loading'] = "laden";
 $arrLang['mbstring_support'] = "Multibyte String Ondersteuning";
-$arrLang['magic_quotes_gpc'] = "";
-$arrLang['magic_quotes_runtime'] = "";
-$arrLang['magic_quotes_sybase'] = "";
+$arrLang['magic_quotes_gpc'] = "Magische offertes voor GPC (Get/Post/Cookie)";
+$arrLang['magic_quotes_runtime'] = "Magische Offertes Runtime";
+$arrLang['magic_quotes_sybase'] = "Magische Offertes zijn in Sybase-stijl";
 $arrLang['mode'] = "Modus";
 $arrLang['modes'] = "Modes";
 $arrLang['new_installation_of'] = "Nieuwe installatie van";
@@ -149,7 +149,7 @@ $arrLang['update'] = "Bijwerken";
 $arrLang['updating_completed'] = "Bijwerken voltooid!";
 $arrLang['virtual_directory_support'] = "Virtual Directory ondersteuning";
 $arrLang['we_are_ready_to_installation'] = "We zijn nu klaar om verder te gaan met de installatie";
-$arrLang['we_are_ready_to_installation_text'] = "";
+$arrLang['we_are_ready_to_installation_text'] = "Bij deze stap zal de installatiewizard proberen alle vereiste databasetabellen te maken en te vullen met gegevens. <br>Als er iets fout gaat, ga terug naar de database instellingen stap en controleer dat alle informatie die u hebt ingevoerd juist is.";
 $arrLang['writable'] = "Schrijfbaar";
 
 $arrLang['core_configuration'] = "Kernconfiguratie";
@@ -194,264 +194,264 @@ $arrLang['LOGGED_IN_KEY'] = 'Ingelogde sleutel';
 $arrLang['LOGGED_IN_SALT'] = 'Ingelogde Salt';
 $arrLang['NONCE_KEY'] = 'Nonce Sleutel';
 $arrLang['NONCE_SALT'] = 'Nonce Salt';
-$arrLang['SESSION_KEY'] = '';
+$arrLang['SESSION_KEY'] = 'Sessie sleutel';
 
 //** End Core Configuration Strings **//
 
 //** Begin Police Strings **//
-$arrLang['POLICE_NCIC'] = "";
-$arrLang['POLICE_NCIC_notes'] = "";
+$arrLang['POLICE_NCIC'] = "Politie NCIC";
+$arrLang['POLICE_NCIC_notes'] = "Toont / verbergt de NCIC-functionaliteit op de MDT-console. Als het 'waar' is, dan zal LEO NCIC-functies kunnen gebruiken zonder een dispatcher, anders is 'flase' dan vereist LEO de aanwezigheid van de coördinator om NCIC funcationality te gebruiken.";
 //** End Police Strings **//
 
 //**  Begin Fire Strings **//
-$arrLang['FIRE_PANIC'] = "";
-$arrLang['FIRE_PANIC_notes'] = "";
+$arrLang['FIRE_PANIC'] = "Vuurpan";
+$arrLang['FIRE_PANIC_notes'] = "Toont/Hides Panic functionaliteit op de MDT-console voor Fire. Als 'waar' dan zal Fire personeel de Panic knop kunnen gebruiken, anders zal 'onwaar' Vuurpersoneel de Panic knop niet kunnen gebruiken.";
 
-$arrLang['FIRE_BOLO'] = "";
-$arrLang['FIRE_BOLO_notes'] = "";
+$arrLang['FIRE_BOLO'] = "Vuur BOLO";
+$arrLang['FIRE_BOLO_notes'] = "Toont/Hides Panic functionaliteit op de MDT-console voor Fire. Als 'waar' dan zal Fire personeel in staat zijn om het BOLO-bord te bekijken, anders als 'onwaar' dan zal Vuurpersoneel niet in staat zijn het BOLO-bord te bekijken";
 
-$arrLang['FIRE_NCIC_NAME'] = "";
-$arrLang['FIRE_NCIC_NAME_notes'] = "";
+$arrLang['FIRE_NCIC_NAME'] = "Naam Fire NCIC";
+$arrLang['FIRE_NCIC_NAME_notes'] = "Toont/Hides Panic functionaliteit op de MDT-console voor Fire. Als 'waar' dan zal Fire personeel in staat zijn om de NCIC naam zoeken te gebruiken, anders als 'onwaar' dan zal Fire-personeel niet in staat zijn NCIC naam lookup te gebruiken";
 
-$arrLang['FIRE_NCIC_PLATE'] = "";
-$arrLang['FIRE_NCIC_PLATE_notes'] = "";
+$arrLang['FIRE_NCIC_PLATE'] = "Vuur NCIC Plaat";
+$arrLang['FIRE_NCIC_PLATE_notes'] = "Toont/Hides Panic functionaliteit op MDT console voor Fire. Als 'waar' dan zal Fire personeel in staat zijn om de NCIC plate lookup functie te gebruiken, anders als 'onwaar' dan zal Fire personeel de NICI plate lookup functie niet kunnen gebruiken.";
 //**  End Fire Strings **//
 
 //** Begin EMS Strings **//
-$arrLang['EMS_PANIC'] = "";
-$arrLang['EMS_PANIC_notes'] = "";
+$arrLang['EMS_PANIC'] = "EMS Paniek";
+$arrLang['EMS_PANIC_notes'] = "Toont/Hides Panic functionaliteit op de MDT-console voor EMS. Als 'waar' dan zal Fire personeel de Panic knop kunnen gebruiken, anders zal het EMS-personeel de Panic knop niet kunnen gebruiken.";
 
-$arrLang['EMS_BOLO'] = "";
-$arrLang['EMS_BOLO_notes'] = "";
+$arrLang['EMS_BOLO'] = "EMS BOLO";
+$arrLang['EMS_BOLO_notes'] = "Toont / verbergt paniekfunctionaliteit op MDT-console voor EMS. Als dit 'waar' is, kan het brandweerpersoneel het BOLO-bord bekijken, anders als 'false' en kunnen het EMS-personeel het BOLO-bord niet bekijken";
 
-$arrLang['EMS_NCIC_NAME'] = "";
-$arrLang['EMS_NCIC_NAME_notes'] = "";
+$arrLang['EMS_NCIC_NAME'] = "Naam EMS NCIC";
+$arrLang['EMS_NCIC_NAME_notes'] = "Toont / verbergt paniekfunctionaliteit op MDT-console voor EMS. Als dit 'waar' is, kan het personeel van het vuur de naam van de NCIC-naam gebruiken, anders als 'false', dan kan het EMS-personeel de NCIC-naam opzoeken niet gebruiken";
 
-$arrLang['EMS_NCIC_PLATE'] = "";
-$arrLang['EMS_NCIC_PLATE_notes'] = "";
+$arrLang['EMS_NCIC_PLATE'] = "EMS NCIC plaat";
+$arrLang['EMS_NCIC_PLATE_notes'] = "Toont / verbergt paniekfunctionaliteit op MDT-console voor EMS. Als dit 'waar' is, kan de brandweerman de NCIC-plaatopzoekfunctie gebruiken, anders als 'onwaar', dan kan het EMS-personeel de NCIC-plaatopzoekfunctie niet gebruiken.";
 //** End EMS Strings **//
 
 //** Begin Roadside Assistance Strings **//
-$arrLang['ROADSIDE_PANIC'] = "";
-$arrLang['ROADSIDE_PANIC_notes'] = "";
+$arrLang['ROADSIDE_PANIC'] = "Roadside Paniek";
+$arrLang['ROADSIDE_PANIC_notes'] = "Toont/Hides Panic functionaliteit op MDT console voor Roadside Assistance. Als 'waar' dan kan RAO de Panic knop gebruiken, anders zal RAO de Panic knop niet kunnen gebruiken als 'onwaar' dan kan RAO de Panic knop niet gebruiken.";
 
-$arrLang['ROADSIDE_BOLO'] = "";
-$arrLang['ROADSIDE_BOLO_notes'] = "";
+$arrLang['ROADSIDE_BOLO'] = "Bruin BOLO";
+$arrLang['ROADSIDE_BOLO_notes'] = "Toont/Hides BOLO functionaliteit op de MDT-console voor Roadside bijstandsverlening. Als 'waar' dan kan RAO de Panic-knop gebruiken, anders zal RAO de Panic knop niet kunnen gebruiken.";
 
-$arrLang['ROADSIDE_NCIC_NAME'] = "";
-$arrLang['ROADSIDE_NCIC_NAME_notes'] = "";
+$arrLang['ROADSIDE_NCIC_NAME'] = "Roadside NCI naam";
+$arrLang['ROADSIDE_NCIC_NAME_notes'] = "Toont/Hides NCIC functionaliteit op MDT console voor Roadside bijstandsverlening. Als 'waar' dan kan RAO NCIC plate query gebruiken zonder dat er een taxicentrale nodig is, anders zal RAO de aanwezigheid van dispatcher nodig hebben om NCIC query funcationaliteit te gebruiken.";
 
-$arrLang['ROADSIDE_NCIC_PLATE'] = "";
+$arrLang['ROADSIDE_NCIC_PLATE'] = "Roadside NCIJ plaat";
 $arrLang['ROADSIDE_NCIC_PLATE_notes'] = "Toont/Verbergt NCIC functionaliteit op MDT console voor bijstandsverlening langs de weg. Als 'true' dan kan de wegenhulp kentekeninformatie opvragen uit de NCIC database zonder dat er een dispatcher nodig is. Anders zal de wegenhulp de aanwezigheid van een dispatcher nodig hebben om kentekeninformatie op te kunnen vragen.";
 
 $arrLang['ROADSIDE_CALL_SELFASSIGN'] = "Wegenhulp call zelf toewijzen";
-$arrLang['ROADSIDE_CALL_SELFASSIGN_notes'] = "";
+$arrLang['ROADSIDE_CALL_SELFASSIGN_notes'] = "Als 'waar' dan kan RAO de NCIC-plaat query gebruiken zonder dat er een taxicentrale nodig is, anders zal RAO de aanwezigheid van de verzender nodig hebben om de NCIC-plaat query-functie te gebruiken.";
 //** End Roadside Assistance Strings **//
 
 //** Begin Civilian Strings **//
-$arrLang['CIV_WARRANT'] = "";
-$arrLang['CIV_WARRANT_notes'] = "";
+$arrLang['CIV_WARRANT'] = "Beschavingsgarantie creatie";
+$arrLang['CIV_WARRANT_notes'] = "Burgers toestaan / weigeren hun warrants te beheren. Indien ingesteld op 'true', dan zal Civs in staat zijn om warrants uit hun profiel te verwijderen, anders indien ingesteld op 'false' zal Civs niet in staat zijn om warrants te verwijderen.";
 
-$arrLang['CIV_REG'] = "";
-$arrLang['CIV_REG_notes'] = "";
+$arrLang['CIV_REG'] = "Instant Civilian Registratie";
+$arrLang['CIV_REG_notes'] = "Toestaan/Disallow directe registratie voor Civilliaten. Indien ingesteld op 'true' zullen burgergenoten geen admin-goedkeuring nodig hebben, in plaats van 'false' in te stellen, zal Civillian registratie toestemming nodig hebben voor Admin. Toestaan/Disallow-directe regitratie voor burgers. Als 'waar' nodig is, zal civiele registratie anders toestemming nodig hebben als 'onwaar' dan zullen burgerregistraties niet worden goedgekeurd.";
 
-$arrLang['CIV_LIMIT_MAX_IDENTITIES'] = "";
-$arrLang['CIV_LIMIT_MAX_IDENTITIES_notes'] = "";
+$arrLang['CIV_LIMIT_MAX_IDENTITIES'] = "Maximaal aantal Burger Identiteiten";
+$arrLang['CIV_LIMIT_MAX_IDENTITIES_notes'] = "Als CIV_LIMIT_MAX '0' is, kunnen burgers onbeperkt identites maken. Anders, als CIV_LIMIT_MAX een andere waarde is dan '0' zal het maximaal aantal mogelijke identites naar die waarde beperken.";
 
-$arrLang['CIV_LIMIT_MAX_VEHICLES'] = "";
-$arrLang['CIV_LIMIT_MAX_VEHICLES_notes'] = "";
+$arrLang['CIV_LIMIT_MAX_VEHICLES'] = "Maximaal aantal Burger Voertuigen";
+$arrLang['CIV_LIMIT_MAX_VEHICLES_notes'] = "Als CIV_LIMIT_MAX_VEHICLES '0' is, dan kan de burger onbeperkt voertuigen maken. Anders, als CIV_LIMIT_MAX_VEHICLES een andere waarde is dan '0' zal het maximaal aantal mogelijke voertuigen naar die waarde beperken";
 
-$arrLang['CIV_LIMIT_MAX_WEAPONS'] = "";
-$arrLang['CIV_LIMIT_MAX_WEAPONS_notes'] = "";
+$arrLang['CIV_LIMIT_MAX_WEAPONS'] = "Maximaal aantal Burger wapens";
+$arrLang['CIV_LIMIT_MAX_WEAPONS_notes'] = "Als CIV_LIMIT_MAX_WEAPONS '0' is, dan kan de burger onbeperkt wapens maken. Anders, als CIV_LIMIT_MAX_WEAPONS een andere waarde is dan '0' zal het maximaal aantal mogelijke wapens naar die waarde beperken";
 //** End Civilian Strings **//
 
 //** Begin Administrative Strings**//
-$arrLang['MODERATOR_APPROVE_USER'] = "";
-$arrLang['MODERATOR_APPROVE_USER_notes'] = "";
+$arrLang['MODERATOR_APPROVE_USER'] = "Moderator goedkeuren gebruiker";
+$arrLang['MODERATOR_APPROVE_USER_notes'] = "Als 'waar' dan kunnen moderators nieuwe gebruikersverzoeken goedkeuren, anders, als 'false' dan kunnen moderators geen nieuwe gebruikersverzoeken goedkeuren.";
 
-$arrLang['MODERATOR_EDIT_USER'] = "";
-$arrLang['MODERATOR_EDIT_USER_notes'] = "";
+$arrLang['MODERATOR_EDIT_USER'] = "Moderator bewerker gebruiker";
+$arrLang['MODERATOR_EDIT_USER_notes'] = "Als 'true' zullen moderators het gebruikersprofiel kunnen bewerken, als 'false' dan zullen moderators het gebruikersprofiel niet kunnen bewerken. Dit omvat naam, e-mail, identificator en rollen. Moderators kunnen gebruikersgroepen toevoegen maar de verwijdering ervan wordt bepaald door de MODERATOR_REMOVE_GROUPS instelling.";
 
-$arrLang['MODERATOR_DELETE_USER'] = "";
-$arrLang['MODERATOR_DELETE_USER_notes'] = "";
+$arrLang['MODERATOR_DELETE_USER'] = "Moderator verwijderen gebruiker";
+$arrLang['MODERATOR_DELETE_USER_notes'] = "Als 'waar' dan kunnen moderators gebruikers verwijderen, anders kunnen 'false' Moderators gebruikers niet verwijderen.";
 
-$arrLang['MODERATOR_SUSPEND_WITHOUT_REASON'] = "";
-$arrLang['MODERATOR_SUSPEND_WITHOUT_REASON_notes'] = "";
+$arrLang['MODERATOR_SUSPEND_WITHOUT_REASON'] = "Moderator Opschorten zonder reden";
+$arrLang['MODERATOR_SUSPEND_WITHOUT_REASON_notes'] = "Als 'waar' dan kunnen moderators gebruikers zonder reden opschorten, anders kunnen 'valse' Moderators gebruikers niet zonder reden opschorten.";
 
-$arrLang['MODERATOR_SUSPEND_WITH_REASON'] = "";
-$arrLang['MODERATOR_SUSPEND_WITH_REASON_notes'] = "";
+$arrLang['MODERATOR_SUSPEND_WITH_REASON'] = "Moderator Opschorten met reden";
+$arrLang['MODERATOR_SUSPEND_WITH_REASON_notes'] = "Als 'waar' dan kunnen moderators gebruikers met een reden opschorten, als 'valse' Moderators gebruikers niet met een reden kunnen opschorten.";
 
-$arrLang['MODERATOR_REACTIVATE_USER'] = "";
-$arrLang['MODERATOR_REACTIVATE_USER_notes'] = "";
+$arrLang['MODERATOR_REACTIVATE_USER'] = "Moderator Reactie gebruiker";
+$arrLang['MODERATOR_REACTIVATE_USER_notes'] = "Als 'waar' dan kunnen moderators andere gebruikers verwijderen, als 'false' Moderators gebruikers niet opnieuw kunnen activeren.";
 
-$arrLang['MODERATOR_REMOVE_GROUP'] = "";
-$arrLang['MODERATOR_REMOVE_GROUP_notes'] = "";
+$arrLang['MODERATOR_REMOVE_GROUP'] = "Groep Moderator verwijderen";
+$arrLang['MODERATOR_REMOVE_GROUP_notes'] = "Als 'waar' dan kunnen moderators gebruikersgroepen verwijderen, anders kunnen 'false' Moderators de gebruikersgroepen niet verwijderen.";
 
-$arrLang['MODERATOR_NCIC_EDITOR'] = "";
-$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "";
+$arrLang['MODERATOR_NCIC_EDITOR'] = "Moderator NCIC Editor";
+$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "Als 'waar' dan kunnen moderators toegang krijgen tot de NCIC-editor, anders zullen 'false' Moderators geen toegang hebben tot de NCCIC-editor.";
 
-$arrLang['MODERATOR_DATA_MANAGER'] = "";
-$arrLang['MODERATOR_DATA_MANAGER_notes'] = "";
+$arrLang['MODERATOR_DATA_MANAGER'] = "Moderator Data Manager";
+$arrLang['MODERATOR_DATA_MANAGER_notes'] = "Als 'waar' dan kunnen moderators toegang krijgen tot de Game Data Manager, anders als 'false' dan kunnen moderators geen toegang krijgen tot de Gam Data Manager.";
 
-$arrLang['MODERATOR_DATAMAN_CITATIONTYPES'] = "";
-$arrLang['MODERATOR_DATAMAN_CITATIONTYPES_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_CITATIONTYPES'] = "Moderator Citatie types editor";
+$arrLang['MODERATOR_DATAMAN_CITATIONTYPES_notes'] = "Als 'true' zullen moderators toegang hebben tot de Citation Types Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_DEPARTMENTS'] = "";
-$arrLang['MODERATOR_DATAMAN_DEPARTMENTS_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_DEPARTMENTS'] = "Moderator Afdelingseditor";
+$arrLang['MODERATOR_DATAMAN_DEPARTMENTS_notes'] = "Als 'true' zullen moderators toegang hebben tot de Departments Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_INCIDENTTYPES'] = "";
-$arrLang['MODERATOR_DATAMAN_INCIDENTTYPES_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_INCIDENTTYPES'] = "Moderator Incident Types Editor";
+$arrLang['MODERATOR_DATAMAN_INCIDENTTYPES_notes'] = "Als 'true' zullen moderators toegang hebben tot de Incident Types Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_RADIOCODES'] = "";
-$arrLang['MODERATOR_DATAMAN_RADIOCODES_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_RADIOCODES'] = "Moderator Radio Codes editor";
+$arrLang['MODERATOR_DATAMAN_RADIOCODES_notes'] = "Als 'true' zullen moderators toegang hebben tot de Radio Codes Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_STREETS'] = "";
-$arrLang['MODERATOR_DATAMAN_STREETS_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_STREETS'] = "Moderator Streets editor";
+$arrLang['MODERATOR_DATAMAN_STREETS_notes'] = "Als 'true' zullen moderators toegang hebben tot de Streets Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
 $arrLang['MODERATOR_DATAMAN_VECHILES'] = "";
-$arrLang['MODERATOR_DATAMAN_VEHICLES_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_VEHICLES_notes'] = "Als 'true' zullen moderators toegang hebben tot de Vehiërles Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_WARNINGTYPES'] = "";
-$arrLang['MODERATOR_DATAMAN_WARNINGTYPES_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_WARNINGTYPES'] = "Moderator waarschuwing types editor";
+$arrLang['MODERATOR_DATAMAN_WARNINGTYPES_notes'] = "Als 'true' zullen moderators toegang hebben tot de Waarschuwing typen Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_WARRANTTYPES'] = "";
-$arrLang['MODERATOR_DATAMAN_WARRANTTYPES_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_WARRANTTYPES'] = "Moderator Garantie types editor";
+$arrLang['MODERATOR_DATAMAN_WARRANTTYPES_notes'] = "Als 'true' zullen moderators toegang hebben tot de Garan Types Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_WEAPONS'] = "";
-$arrLang['MODERATOR_DATAMAN_WEAPONS_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_WEAPONS'] = "Moderator Wapens Editor";
+$arrLang['MODERATOR_DATAMAN_WEAPONS_notes'] = "Als 'true' zullen moderators toegang hebben tot de Wapons Manager module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 
-$arrLang['MODERATOR_DATAMAN_IMPEXPRESET'] = "";
-$arrLang['MODERATOR_DATAMAN_IMPEXPRESET_notes'] = "";
+$arrLang['MODERATOR_DATAMAN_IMPEXPRESET'] = "Moderator importeren/Exporteren/resetten";
+$arrLang['MODERATOR_DATAMAN_IMPEXPRESET_notes'] = "Als 'true' dan zullen moderators toegang hebben tot de Import/Export/Reset module van de Game Data Manager, anders als 'false' dan zullen moderators geen toegang krijgen.";
 //** End Administrative Strings**//
 
 //** Begin Extra Settings Strings **//
-$arrLang['DEMO_MODE'] = "";
-$arrLang['DEMO_MODE_notes'] = "";
+$arrLang['DEMO_MODE'] = "Demomodus";
+$arrLang['DEMO_MODE_notes'] = "'waar', dan worden verschillende gebruikersbeheerfuncties van OpenCAD geblokkeerd, anders als 'false' en dan is de volledige functionaliteit * van OpenCAD beschikbaar voor gebruik.";
 
-$arrLang['USE_GRAVATAR'] = "";
-$arrLang['USE_GRAVATAR_notes'] = "";
+$arrLang['USE_GRAVATAR'] = "Gravatar";
+$arrLang['USE_GRAVATAR_notes'] = "OpenCAD zal je avatar dynamisch ophalen van {@link Gravatar http://en.gravatar.com/} als je een account hebt. Anders zal het de standaard generieke avatar gebruiken inclusief OpenCAD .";
 //** End Extra Settings Strings **//
 
 //** Begin Common Global Strings **/
-$arrLang['WELCOME'] = "";
-$arrLang["GENERAL"] = "";
-$arrLang["CAD_SYSTEM"] = "";
-$arrLang["EDIT"] = "";
-$arrLang["DELETE"] = "";
-$arrLang["NAME"] = "";
-$arrLang["EMAIL"] = "";
-$arrLang["ROLE"] = "";
-$arrLang["IDENTIFIER"] = "";
-$arrLang["GROUPS"] = "";
-$arrLang["ACTIONS"] = "";
-$arrLang["NEXT"] = "";
-$arrLang["PREVIOUS"] = "";
-$arrLang["SEARCH"] =  "";
-$arrLang["DASHBOARD"] =  "";
-$arrLang["LOGOUT"] =  "";
-$arrLang["NEED_HELP"] =  "";
-$arrLang["FULLSCREEN"] =  "";
-$arrLang["DOB"] = "";
-$arrLang["ADDRESS"] = "";
-$arrLang["GENDER"] = "";
-$arrLang["RACE"] = "";
-$arrLang["DL_STATUS"] = "";
-$arrLang["HAIR_COLOR"] = "";
-$arrLang["BUILD"] = "";
-$arrLang["WEAPON_STATUS"] = "";
-$arrLang["WEAPON_NAME"] = "";
-$arrLang["WEAPON_TYPE"] ="";
-$arrLang["WEAPON_NOTES"] ="";
-$arrLang["DECEASED"] = "";
-$arrLang["REG_PLATE"] = "";
-$arrLang["VEHICLE_NOTES"] = "";
-$arrLang["NOT_YOU"] = "";
-$arrLang["ACTIVE_CALLS"] = "";
-$arrLang["ACTIVE_BOLOS"] = "";
-$arrLang["NCIC_NAME_LOOKUP"] = "";
-$arrLang["NCIC_PLATE_LOOKUP"] = "";
-$arrLang["NCIC_WEAPON_LOOKUP"] = "";
-$arrLang["SEND"] = "";
-$arrLang["MY_PROFILE"] = "";
+$arrLang['WELCOME'] = "Verwelkoming";
+$arrLang["GENERAL"] = "Algemeen";
+$arrLang["CAD_SYSTEM"] = "CAD-systeem";
+$arrLang["EDIT"] = "Bewerken";
+$arrLang["DELETE"] = "Verwijderen";
+$arrLang["NAME"] = "Naam";
+$arrLang["EMAIL"] = "E-mail";
+$arrLang["ROLE"] = "Rol";
+$arrLang["IDENTIFIER"] = "Id";
+$arrLang["GROUPS"] = "Groepen";
+$arrLang["ACTIONS"] = "Acties";
+$arrLang["NEXT"] = "Volgende";
+$arrLang["PREVIOUS"] = "Vorige";
+$arrLang["SEARCH"] =  "Zoeken";
+$arrLang["DASHBOARD"] =  "Dashboard";
+$arrLang["LOGOUT"] =  "Uitloggen";
+$arrLang["NEED_HELP"] =  "Hulp nodig?";
+$arrLang["FULLSCREEN"] =  "Volledig scherm";
+$arrLang["DOB"] = "DOB";
+$arrLang["ADDRESS"] = "Adres";
+$arrLang["GENDER"] = "Geslacht";
+$arrLang["RACE"] = "Race";
+$arrLang["DL_STATUS"] = "DL-status";
+$arrLang["HAIR_COLOR"] = "Haarkleur";
+$arrLang["BUILD"] = "Bouw";
+$arrLang["WEAPON_STATUS"] = "Wapenstatus";
+$arrLang["WEAPON_NAME"] = "Wapennaam";
+$arrLang["WEAPON_TYPE"] ="Wapentype";
+$arrLang["WEAPON_NOTES"] ="Wapen notities";
+$arrLang["DECEASED"] = "Opgegeven";
+$arrLang["REG_PLATE"] = "Reg. Plaat";
+$arrLang["VEHICLE_NOTES"] = "Voertuig notities";
+$arrLang["NOT_YOU"] = "Niet jij?";
+$arrLang["ACTIVE_CALLS"] = "Actieve oproepen";
+$arrLang["ACTIVE_BOLOS"] = "Actieve BOLOs";
+$arrLang["NCIC_NAME_LOOKUP"] = "NCIC naam opzoeken";
+$arrLang["NCIC_PLATE_LOOKUP"] = "NCIC Plaat Lookup";
+$arrLang["NCIC_WEAPON_LOOKUP"] = "NCIC Wapen Opzoeken";
+$arrLang["SEND"] = "Verstuur";
+$arrLang["MY_PROFILE"] = "Mijn profiel";
 //** End Common Global Strings */
 
 //** Begin Administrator/Moderator Console Strings  **/
-$arrLang["CAD_ADMINISTRATION"] = "";
-$arrLang["STATISTICS_AT_A_GLANCE"] = "";
-$arrLang["TOTAL_USERS"] = "";
-$arrLang["ACEESS_REQUESTS"] = "";
-$arrLang["THERE_ARE_CURRENTLY_NO_ACCESS_REQUESTS"] = "";
-$arrLang["CAD_USER_MANAGEMENT"] = "";
-$arrLang["ACCOUNT_MANAGEMENT"] = "";
-$arrLang["SUSPEND_WITH_REASON"] = "";
-$arrLang["SUSPEND_WITHOUT_REASON"] = "";
-$arrLang["NCIC_EDITOR"] = "";
+$arrLang["CAD_ADMINISTRATION"] = "CAD-administratie";
+$arrLang["STATISTICS_AT_A_GLANCE"] = "Statistieken in een oogopslag";
+$arrLang["TOTAL_USERS"] = "Totaal gebruikers";
+$arrLang["ACEESS_REQUESTS"] = "Toegangsverzoeken";
+$arrLang["THERE_ARE_CURRENTLY_NO_ACCESS_REQUESTS"] = "Er zijn momenteel geen toegangsverzoeken.";
+$arrLang["CAD_USER_MANAGEMENT"] = "CAD gebruikersbeheer";
+$arrLang["ACCOUNT_MANAGEMENT"] = "Accountbeheer";
+$arrLang["SUSPEND_WITH_REASON"] = "Opschorten met reden";
+$arrLang["SUSPEND_WITHOUT_REASON"] = "Schorsen zonder reden";
+$arrLang["NCIC_EDITOR"] = "NCIC-editor";
 $arrLang["NCIC_NAMES_DB"] = "";
 $arrLang["NCIC_NAMES_DB_none"] = "";
-$arrLang["NCIC_VEHICLES_DB"] = "";
-$arrLang["NCIC_VEHICLES_DB_none"] = "";
-$arrLang["NCIC_WEAPONS_DB"] = "";
-$arrLang["NCIC_WEAPONS_DB_none"] = "";
-$arrLang["NCIC_WARNINGS_DB"] = "";
-$arrLang["NCIC_WARNINGS_DB_none"] = "";
-$arrLang["NCIC_CITATIONS_DB"] = "";
-$arrLang["NCIC_CITATIONS_DB_none"] = "";
-$arrLang["NCIC_ARRESTS_DB"] = "";
-$arrLang["NCIC_ARRESTS_DB_none"] = "";
-$arrLang["NCIC_WARRANTS_DB"] = "";
-$arrLang["NCIC_WARRANTS_DB_none"] = "";
+$arrLang["NCIC_VEHICLES_DB"] = "NCIC-voertuigen database";
+$arrLang["NCIC_VEHICLES_DB_none"] = "Geen resultaten gevonden in de NCIC Vehicles database.";
+$arrLang["NCIC_WEAPONS_DB"] = "NCIC wapens database";
+$arrLang["NCIC_WEAPONS_DB_none"] = "Geen resultaten gevonden in de NCIC Wapens database.";
+$arrLang["NCIC_WARNINGS_DB"] = "NCIC Waarschuwingen Database";
+$arrLang["NCIC_WARNINGS_DB_none"] = "Geen resultaten gevonden in de NCIC Wapens database.";
+$arrLang["NCIC_CITATIONS_DB"] = "NCIC Citations Database.";
+$arrLang["NCIC_CITATIONS_DB_none"] = "Geen resultaten gevonden in de NCIC Citations database.";
+$arrLang["NCIC_ARRESTS_DB"] = "NCIC arresteert database";
+$arrLang["NCIC_ARRESTS_DB_none"] = "Geen resultaten gevonden in de NCIC-databank.";
+$arrLang["NCIC_WARRANTS_DB"] = "NCIC Garantie database";
+$arrLang["NCIC_WARRANTS_DB_none"] = "Geen resultaten gevonden in de NCIC Garantie database";
 //** End Administrator/Moderator Console Strings  **/
 
 //** Begin Civillian Console Strings **/
-$arrLang["CIVILLIAN_CONSOLE"] = "";
-$arrLang["MY_IDENTITIES"] = "";
-$arrLang["MY_IDENTITIES_none"] = "";
-$arrLang["MY_VEHICLES"] = "";
-$arrLang["MY_VEHICLES_none"] = "";
-$arrLang["MY_WEAPONS"] = "";
-$arrLang["MY_WEAPONS_none"] = "";
-$arrLang["MY_WARRANTS"] = "";
-$arrLang["MY_WARRANTS_none"] = "";
-$arrLang["CREATE_A_CALL"] = "";
-$arrLang["ADD_NEW_IDENTITY"] = "";
+$arrLang["CIVILLIAN_CONSOLE"] = "Civilliaanse Console";
+$arrLang["MY_IDENTITIES"] = "Mijn identiteit";
+$arrLang["MY_IDENTITIES_none"] = "Geen resultaten gevonden in de identiteitsdatabase.";
+$arrLang["MY_VEHICLES"] = "Mijn voertuigen";
+$arrLang["MY_VEHICLES_none"] = "Geen resultaten gevonden in de database van voertuigen.";
+$arrLang["MY_WEAPONS"] = "Mijn wapens";
+$arrLang["MY_WEAPONS_none"] = "Geen resultaten gevonden in de wapendatabase.";
+$arrLang["MY_WARRANTS"] = "Mijn garanties";
+$arrLang["MY_WARRANTS_none"] = "Geen resultaten gevonden in de garantiedatabase.";
+$arrLang["CREATE_A_CALL"] = "Een oproep maken";
+$arrLang["ADD_NEW_IDENTITY"] = "Voeg nieuwe identiteit toe";
 $arrLang["Add_ADD_NEW_PLATE"] = "";
-$arrLang["ADD_NEW_WEAPON"] = "";
-$arrLang["CIVILLIAN_DASHBOARD"] = "";
+$arrLang["ADD_NEW_WEAPON"] = "Voeg nieuw wapen toe";
+$arrLang["CIVILLIAN_DASHBOARD"] = "Civilliaans Dashboard";
 $arrLang["VIEW_WARRANTS"] = "";
-$arrLang["CREATE_WARRANT"] = "";
-$arrLang["UPDATE"] = "";
+$arrLang["CREATE_WARRANT"] = "Garantie maken";
+$arrLang["UPDATE"] = "Bijwerken";
 //** End Civillian Console Strings **/
 
 //** Begin CAD Console Strings **/
-$arrLang["CAD_CONSOLE"] = "";
-$arrLang["ACTIVE_DISPATCHERS"] = "";
-$arrLang["ACTIVE_DISPATCHERS_none"] = "";
-$arrLang["AVAILABLE_UNITS"] = "";
-$arrLang["UNAVAILABLE_UNITS"] = "";
-$arrLang["NEW_PERSONS_BOLO"] = "";
-$arrLang["NEW_VEHICLE_BOLO"] = "";
-$arrLang["NEW_CALL"] = "";
-$arrLang["PANIC_BUTTON"] = "";
-$arrLang["PRIORITY_TONE"] = "";
-$arrLang["STOP_BORADCASTING_BUTTON"] = "";
-$arrLang["STOPWATCH"] = "";
-$arrLang["WARNINGS"] = "";
-$arrLang["CITATIONS"] = "";
-$arrLang["ARREST_REPORT"] = "";
-$arrLang["WARRANTS"] = "";
+$arrLang["CAD_CONSOLE"] = "CAD-console";
+$arrLang["ACTIVE_DISPATCHERS"] = "Actieve Taxicentrales";
+$arrLang["ACTIVE_DISPATCHERS_none"] = "Er zijn momenteel geen taxicentrales beschikbaar.";
+$arrLang["AVAILABLE_UNITS"] = "Beschikbare eenheden";
+$arrLang["UNAVAILABLE_UNITS"] = "Onbeschikbare eenheden";
+$arrLang["NEW_PERSONS_BOLO"] = "Nieuwe personen BOLO";
+$arrLang["NEW_VEHICLE_BOLO"] = "Nieuwe voertuigBOLO";
+$arrLang["NEW_CALL"] = "Nieuwe oproep";
+$arrLang["PANIC_BUTTON"] = "Paniek Knop";
+$arrLang["PRIORITY_TONE"] = "PRIORITEIT_TONE";
+$arrLang["STOP_BORADCASTING_BUTTON"] = "10-3 tong";
+$arrLang["STOPWATCH"] = "Stopwatch";
+$arrLang["WARNINGS"] = "Waarschuwingen";
+$arrLang["CITATIONS"] = "Referenties";
+$arrLang["ARREST_REPORT"] = "REPORT arresteren";
+$arrLang["WARRANTS"] = "Garanties";
 //** End CAD Console Strings *//
 
 //** Begin MDT Console Strings **/
-$arrLang["MDT_CONSOLE"] = "";
-$arrLang["MY_STATUS"] = "";
-$arrLang["MY_CALL"] ="";
-$arrLang["VIEW_PERSONS_BOLOS"] = "";
-$arrLang["VIEW_VEHICLE_BOLOS"] = "";
+$arrLang["MDT_CONSOLE"] = "MDT-console";
+$arrLang["MY_STATUS"] = "Mijn status";
+$arrLang["MY_CALL"] ="Mijn oproep";
+$arrLang["VIEW_PERSONS_BOLOS"] = "Bekijk Personen BOLO's";
+$arrLang["VIEW_VEHICLE_BOLOS"] = "Bekijk voertuigBOLOs";
 //** End MDT Console Strings *//
 
 //** Begin Profile Console Strings **/
-$arrLang["PASSWORD"] = "";
-$arrLang["CHANGE_PASSWORD"] = "";
-$arrLang["MY_PRFILE"] ="";
+$arrLang["PASSWORD"] = "Wachtwoord";
+$arrLang["CHANGE_PASSWORD"] = "Wachtwoord wijzigen";
+$arrLang["MY_PRFILE"] ="Mijn profiel";
 //** End Profile Console Strings *//
 ?>
