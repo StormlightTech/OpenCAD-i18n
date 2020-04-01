@@ -88,6 +88,8 @@ $arrLang['installation_guide'] = "Průvodce instalací";
 $arrLang['installation_type'] = "Typ instalace";
 $arrLang['language'] = "Jazyk";
 $arrLang['license'] = "Licence";
+$arrLang['Import'] = "";
+$arrLang['Export'] = "";
 $arrLang['loading'] = "Nařikování";
 $arrLang['mbstring_support'] = "Podpora pro multibyte";
 $arrLang['magic_quotes_gpc'] = "Magic Quotes for GPC (Get/Post/Cookie)";
@@ -155,7 +157,7 @@ $arrLang['writable'] = "Omyl";
 $arrLang['core_configuration'] = "Korunní konfigurace";
 $arrLang['department_configuration'] = 'Oddělení konfigurace';
 $arrLang['civilian_configuration'] = 'Civilní konfigurace'; 
-$arrLang['administrative_configuration'] = 'Správní konfigurace';
+$arrLang['administrative_configuration'] = '';
 $arrLang['extra_settings'] = 'Přistoupení';
 
 //** Begin Core Configuration Strings **//
@@ -195,13 +197,44 @@ $arrLang['LOGGED_IN_SALT'] = 'Vložený-In Salt';
 $arrLang['NONCE_KEY'] = 'Nonce Key';
 $arrLang['NONCE_SALT'] = 'Nonce Salt';
 $arrLang['SESSION_KEY'] = 'Klíč k ústupu';
-
 //** End Core Configuration Strings **//
 
-//** Begin Police Strings **//
+//** Begin Login Strings **//
+$arrLang['LAW_ENFORCEMENT_OFFICER'] = "";
+$arrLang['FIRST_RESPONDER'] = "";
+$arrLang['CIVILIAN'] = "";
+$arrLang['SIGN_IN_TO_YOUR_ACCOUNT'] = "";
+$arrLang['LOGIN'] = "";
+$arrLang['REQUEST_ACCESS'] = "";
+//** End Login Strings **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['FIRST_RESPONDER_ACCESS_REQUEST'] = "";
+$arrLang['CIVILIAN_ACCESS_REQUEST'] = "";
+$arrLang['DIVISION_SELECT_ALL'] = "";
+$arrLang['IDENTIFIER_PLCAEHOLDER'] = "";
+//** End Registration Modal Strings  **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['CONFIRM_PASSWORD'] = "";
+//** End Registration Modal Strings **//
+
+//** Begin Dashboard Strings **//
+$arrLang['CIVILIAN_SERVICES'] = "";
+$arrLang['LAW_ENFORCEMENT_SERVICES'] = "";
+$arrLang['FIRST_RESPONDER_SERVICES'] = "";
+//** End Dashboard Strings **//
+
+
+//** Begin LEO Strings **//
 $arrLang['POLICE_NCIC'] = "";
 $arrLang['POLICE_NCIC_notes'] = "Zobrazí / skryje funkce NCIC na konzole MDT. Pokud je „true“, pak bude LEO schopen používat funkce NCIC bez potřeby dispečera, jinak pokud bude „flase“, pak LEO bude vyžadovat přítomnost dispečerů pro využití funkce NCIC.";
-//** End Police Strings **//
+
+$arrLang['POLICE_CALL_SELFASSIGN'] = "";
+$arrLang['POLICE_CALL_SELFASSIGN_notes'] = "";
+//** End LEO Strings **//
 
 //**  Begin Fire Strings **//
 $arrLang['FIRE_PANIC'] = "Chřipková panika";
@@ -215,6 +248,9 @@ $arrLang['FIRE_NCIC_NAME_notes'] = "If 'true' then Fire personnel will be able t
 
 $arrLang['FIRE_NCIC_PLATE'] = "Fire NCIC Plate";
 $arrLang['FIRE_NCIC_PLATE_notes'] = "If 'true' then Fire personnel will be able to use the NCIC plate lookup function, if 'false' then Fire personnel will not be able to use the NICI plate function.";
+
+$arrLang['FIRE_CALL_SELFASSIGN'] = "";
+$arrLang['FIRE_CALL_SELFASSIGN_notes'] = "";
 //**  End Fire Strings **//
 
 //** Begin EMS Strings **//
@@ -266,6 +302,9 @@ $arrLang['CIV_LIMIT_MAX_WEAPONS_notes'] = "Pokud je CIV_LIMIT_MAX_WEAPONS '0' bu
 //** End Civilian Strings **//
 
 //** Begin Administrative Strings**//
+$arrLang['MODERATOR_USER_MANAGER'] = "";
+$arrLang['MODERATOR_USER_MANAGER_notes'] = "";
+
 $arrLang['MODERATOR_APPROVE_USER'] = "Moderator Approve User";
 $arrLang['MODERATOR_APPROVE_USER_notes'] = "Pokud \"pravda\" pak budou Moderatoři moci schválit nové uživatelské požadavky, jinak, pokud \"falešné\" budou moci model schválit nové uživatelské požadavky.";
 
@@ -288,7 +327,7 @@ $arrLang['MODERATOR_REMOVE_GROUP'] = "Skupinu umírněnců Odstraňte";
 $arrLang['MODERATOR_REMOVE_GROUP_notes'] = "Pokud \"pravda\" pak budou moci Moderatoři odstranit skupiny uživatelů, jinak nebudou moci \"falešné\" vzorce odstranit skupiny uživatelů.";
 
 $arrLang['MODERATOR_NCIC_EDITOR'] = "Moderator NCIC Editor";
-$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "Pokud \"pravda\" pak budou mít Moderatory přístup k editoru NCIC, jinak se \"falešné\" Moderatory nebudou moci dostat k editoru NCCIC.";
+$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "";
 
 $arrLang['MODERATOR_DATA_MANAGER'] = "Moderator Data manažer";
 $arrLang['MODERATOR_DATA_MANAGER_notes'] = "Pokud \"pravda\" pak budou mít Moderatoři přístup k datovému správci Game, jinak pokud \"falešné\" budou mít Moderatoři přístup k správci her.";
@@ -308,7 +347,7 @@ $arrLang['MODERATOR_DATAMAN_RADIOCODES_notes'] = "Pokud 'pravda' pak budou mít 
 $arrLang['MODERATOR_DATAMAN_STREETS'] = "Moderator utlačuje Editor";
 $arrLang['MODERATOR_DATAMAN_STREETS_notes'] = "Pokud \"pravda\" pak budou mít Moderatoři přístup k modulu Streets Manager z Game Data Manager, jinak, pokud \"falešné\" budou mít přístup k modelům.";
 
-$arrLang['MODERATOR_DATAMAN_VECHILES'] = "";
+$arrLang['MODERATOR_DATAMAN_VEHICLES'] = "";
 $arrLang['MODERATOR_DATAMAN_VEHICLES_notes'] = "Pokud \"pravda\" pak budou mít Moderatoři přístup k modulu pro vozíky Game Data Manager, jinak, pokud \"falešné\" budou mít přístup k modelům.";
 
 $arrLang['MODERATOR_DATAMAN_WARNINGTYPES'] = "Editor typu Moderator varování";
@@ -373,6 +412,11 @@ $arrLang["NCIC_PLATE_LOOKUP"] = "Hledání NCIC Plate";
 $arrLang["NCIC_WEAPON_LOOKUP"] = "NCIC Weapon";
 $arrLang["SEND"] = "Pošlete";
 $arrLang["MY_PROFILE"] = "Můj profil";
+$arrLang["APPLICATIONS"] = "";
+$arrLang["SETTINGS"] = "";
+$arrLang["REQUEST"] = "";
+$arrLang["CLOSE"] = "";
+$arrLang["RESET"] = "";
 //** End Common Global Strings */
 
 //** Begin Administrator/Moderator Console Strings  **/
@@ -385,8 +429,7 @@ $arrLang["CAD_USER_MANAGEMENT"] = "CAD User Management";
 $arrLang["ACCOUNT_MANAGEMENT"] = "Správa účtu";
 $arrLang["SUSPEND_WITH_REASON"] = "Průběh s rozumem";
 $arrLang["SUSPEND_WITHOUT_REASON"] = "Průzkum bez rozumu";
-$arrLang["NCIC_EDITOR"] = "NCIC Editor";
-$arrLang["NCIC_NAMES_DB"] = "";
+$arrLang["NCIC_NAMES_DB"] = ""; 
 $arrLang["NCIC_NAMES_DB_none"] = "";
 $arrLang["NCIC_VEHICLES_DB"] = "NCIC Vehicles Database";
 $arrLang["NCIC_VEHICLES_DB_none"] = "V databázi NCIC Vehicles nenajdete žádné výsledky.";
@@ -400,6 +443,61 @@ $arrLang["NCIC_ARRESTS_DB"] = "NCIC Arrests Database";
 $arrLang["NCIC_ARRESTS_DB_none"] = "Žádné výsledky nalezeny v databázi NCIC Arrests.";
 $arrLang["NCIC_WARRANTS_DB"] = "Datababáze NCIC Warrants";
 $arrLang["NCIC_WARRANTS_DB_none"] = "Žádné výsledky nalezeny v databázi NCIC Warrants";
+$arrLang["USER_MANAGER"] = "";
+$arrLang["NCIC_EDITOR"] = "NCIC Editor";
+$arrLang["DATA_MANAGER"] = "";
+$arrLang["ABOUT_ENVIRONMENT"] = "";
+$arrLang["PHP_VERSION"] = "";
+$arrLang["PHP_VERSION_notes"] = "";
+$arrLang["DATABASE_ENGINE"] = "";
+$arrLang["DATABASE_ENGINE_notes"] = "";
+$arrLang["LOADED_PHP_MODULES"] = "";
+$arrLang["LOADED_PHP_MODULES_notes"] = "";
+$arrLang["ABOUT_YOUR_APPLICATION"] = "";
+$arrLang["APPLICATION_VERSION"] = "";
+$arrLang["APPLICATION_VERSION_notes"] = "";
+$arrLang["DATABASE_VERSION"] = "";
+$arrLang["DATABASE_VERSION_notes"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["DEPARTMENT_MANAGER"] = "";
+$arrLang["DEPARTMENT_MANAGER_none"] = "";
+$arrLang["INCIDENTTYPE_MANAGER"] = "";
+$arrLang["INCIDENTTYPE_MANAGER_none"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["RADIOCODE_MANAGER"] = "";
+$arrLang["RADIOCODE_MANAGER_none"] = "";
+$arrLang["STREET_MANAGER"] = "";
+$arrLang["STREET_MANAGER_none"] = "";
+$arrLang["VEHICLE_MANAGER"] = "";
+$arrLang["VEHICLE_MANAGER_none"] = "";
+$arrLang["WARNINGTYPE_MANAGER"] = "";
+$arrLang["WARNINGTYPE_MANAGER_none"] = "";
+$arrLang["WARRANTTYPE_MANAGER"] = "";
+$arrLang["WARRANTTYPE_MANAGER_none"] = "";
+$arrLang["WEAPON_MANAGER"] = "";
+$arrLang["WEAPON_MANAGER_none"] = "";
+$arrLang["ABOUT_OPENCAD"] = "";
+$arrLang["RESET_DATA"] = "";
+$arrLang["ENVIRONMENTAL_DATA_OPTGRP"] = "";
+$arrLang["STREETS"] = "";
+$arrLang["VEHICLES"] = "";
+$arrLang["WEAPONS"] = "";
+$arrLang["CIVILIAN_DATA_OPTGRP"] = "";
+$arrLang["IDENTITIES"] = "";
+$arrLang["REGISTERED_PLATES"] = "";
+$arrLang["REGISTERED_WEAPONS"] = "";
+$arrLang["WARRANT_HISTORY"] = "";
+$arrLang["WARNING_HISTORY"] = "";
+$arrLang["LEO_SUPPORT_DATA_OPTGRP"] = "";
+$arrLang["CITATION_TYPES"] = "";
+$arrLang["INCIDENT_TYPES"] = "";
+$arrLang["RADIO_CODES"] = "";
+$arrLang["WARRANT_TYPES"] = "";
+$arrLang["WARNING_TYPES"] = "";
+$arrLang["RESET_ALL_DATA_OPTGRP"] = "";
+$arrLang["RESET_ALL_DATA"] = "";
 //** End Administrator/Moderator Console Strings  **/
 
 //** Begin Civillian Console Strings **/
@@ -414,7 +512,7 @@ $arrLang["MY_WARRANTS"] = "Můj zatýkací rozkaz";
 $arrLang["MY_WARRANTS_none"] = "Žádné výsledky nalezeny v databázi záruk.";
 $arrLang["CREATE_A_CALL"] = "Vytvořit výzvu";
 $arrLang["ADD_NEW_IDENTITY"] = "Přidat novou identitu";
-$arrLang["Add_ADD_NEW_PLATE"] = "";
+$arrLang["ADD_NEW_VEHICLE"] = "";
 $arrLang["ADD_NEW_WEAPON"] = "Přidat nový zbraň";
 $arrLang["CIVILLIAN_DASHBOARD"] = "Civillský Dashboard";
 $arrLang["VIEW_WARRANTS"] = "";
@@ -439,6 +537,7 @@ $arrLang["WARNINGS"] = "Varování";
 $arrLang["CITATIONS"] = "Citace";
 $arrLang["ARREST_REPORT"] = "Zarezervujte REPORT";
 $arrLang["WARRANTS"] = "zatýkací rozkazy";
+$arrLang["SET_AREA_OF_PATROL"] = "";
 //** End CAD Console Strings *//
 
 //** Begin MDT Console Strings **/
@@ -453,5 +552,7 @@ $arrLang["VIEW_VEHICLE_BOLOS"] = "Zobrazit automobilové BOLOs";
 $arrLang["PASSWORD"] = "Heslo";
 $arrLang["CHANGE_PASSWORD"] = "Změnit heslo";
 $arrLang["MY_PRFILE"] ="Můj profil";
+$arrLang["PROFILE_SUCCESS"] = "";
+$arrLang["PASSWORD_SUCCESS"] = "Successfully updated your password."
 //** End Profile Console Strings *//
 ?>

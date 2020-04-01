@@ -86,6 +86,8 @@ $arrLang['installation_guide'] = "";
 $arrLang['installation_type'] = "";
 $arrLang['language'] = "";
 $arrLang['license'] = "";
+$arrLang['Import'] = "";
+$arrLang['Export'] = "";
 $arrLang['loading'] = "";
 $arrLang['mbstring_support'] = "";
 $arrLang['magic_quotes_gpc'] = "";
@@ -180,13 +182,44 @@ $arrLang['LOGGED_IN_SALT'] = '';
 $arrLang['NONCE_KEY'] = '';
 $arrLang['NONCE_SALT'] = '';
 $arrLang['SESSION_KEY'] = '';
-
 //** End Core Configuration Strings **//
 
-//** Begin Police Strings **//
+//** Begin Login Strings **//
+$arrLang['LAW_ENFORCEMENT_OFFICER'] = "";
+$arrLang['FIRST_RESPONDER'] = "";
+$arrLang['CIVILIAN'] = "";
+$arrLang['SIGN_IN_TO_YOUR_ACCOUNT'] = "";
+$arrLang['LOGIN'] = "";
+$arrLang['REQUEST_ACCESS'] = "";
+//** End Login Strings **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['FIRST_RESPONDER_ACCESS_REQUEST'] = "";
+$arrLang['CIVILIAN_ACCESS_REQUEST'] = "";
+$arrLang['DIVISION_SELECT_ALL'] = "";
+$arrLang['IDENTIFIER_PLCAEHOLDER'] = "";
+//** End Registration Modal Strings  **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['CONFIRM_PASSWORD'] = "";
+//** End Registration Modal Strings **//
+
+//** Begin Dashboard Strings **//
+$arrLang['CIVILIAN_SERVICES'] = "";
+$arrLang['LAW_ENFORCEMENT_SERVICES'] = "";
+$arrLang['FIRST_RESPONDER_SERVICES'] = "";
+//** End Dashboard Strings **//
+
+
+//** Begin LEO Strings **//
 $arrLang['POLICE_NCIC'] = "";
 $arrLang['POLICE_NCIC_notes'] = "";
-//** End Police Strings **//
+
+$arrLang['POLICE_CALL_SELFASSIGN'] = "";
+$arrLang['POLICE_CALL_SELFASSIGN_notes'] = "";
+//** End LEO Strings **//
 
 //**  Begin Fire Strings **//
 $arrLang['FIRE_PANIC'] = "";
@@ -200,6 +233,9 @@ $arrLang['FIRE_NCIC_NAME_notes'] = "";
 
 $arrLang['FIRE_NCIC_PLATE'] = "";
 $arrLang['FIRE_NCIC_PLATE_notes'] = "";
+
+$arrLang['FIRE_CALL_SELFASSIGN'] = "";
+$arrLang['FIRE_CALL_SELFASSIGN_notes'] = "";
 //**  End Fire Strings **//
 
 //** Begin EMS Strings **//
@@ -251,6 +287,9 @@ $arrLang['CIV_LIMIT_MAX_WEAPONS_notes'] = "";
 //** End Civilian Strings **//
 
 //** Begin Administrative Strings**//
+$arrLang['MODERATOR_USER_MANAGER'] = "";
+$arrLang['MODERATOR_USER_MANAGER_notes'] = "";
+
 $arrLang['MODERATOR_APPROVE_USER'] = "";
 $arrLang['MODERATOR_APPROVE_USER_notes'] = "";
 
@@ -293,7 +332,7 @@ $arrLang['MODERATOR_DATAMAN_RADIOCODES_notes'] = "";
 $arrLang['MODERATOR_DATAMAN_STREETS'] = "";
 $arrLang['MODERATOR_DATAMAN_STREETS_notes'] = "";
 
-$arrLang['MODERATOR_DATAMAN_VECHILES'] = "";
+$arrLang['MODERATOR_DATAMAN_VEHICLES'] = "";
 $arrLang['MODERATOR_DATAMAN_VEHICLES_notes'] = "";
 
 $arrLang['MODERATOR_DATAMAN_WARNINGTYPES'] = "";
@@ -358,6 +397,11 @@ $arrLang["NCIC_PLATE_LOOKUP"] = "";
 $arrLang["NCIC_WEAPON_LOOKUP"] = "";
 $arrLang["SEND"] = "";
 $arrLang["MY_PROFILE"] = "";
+$arrLang["APPLICATIONS"] = "";
+$arrLang["SETTINGS"] = "";
+$arrLang["REQUEST"] = "";
+$arrLang["CLOSE"] = "";
+$arrLang["RESET"] = "";
 //** End Common Global Strings */
 
 //** Begin Administrator/Moderator Console Strings  **/
@@ -370,8 +414,7 @@ $arrLang["CAD_USER_MANAGEMENT"] = "";
 $arrLang["ACCOUNT_MANAGEMENT"] = "";
 $arrLang["SUSPEND_WITH_REASON"] = "";
 $arrLang["SUSPEND_WITHOUT_REASON"] = "";
-$arrLang["NCIC_EDITOR"] = "";
-$arrLang["NCIC_NAMES_DB"] = "";
+$arrLang["NCIC_NAMES_DB"] = ""; 
 $arrLang["NCIC_NAMES_DB_none"] = "";
 $arrLang["NCIC_VEHICLES_DB"] = "";
 $arrLang["NCIC_VEHICLES_DB_none"] = "";
@@ -385,6 +428,61 @@ $arrLang["NCIC_ARRESTS_DB"] = "";
 $arrLang["NCIC_ARRESTS_DB_none"] = "";
 $arrLang["NCIC_WARRANTS_DB"] = "";
 $arrLang["NCIC_WARRANTS_DB_none"] = "";
+$arrLang["USER_MANAGER"] = "";
+$arrLang["NCIC_EDITOR"] = "";
+$arrLang["DATA_MANAGER"] = "";
+$arrLang["ABOUT_ENVIRONMENT"] = "";
+$arrLang["PHP_VERSION"] = "";
+$arrLang["PHP_VERSION_notes"] = "";
+$arrLang["DATABASE_ENGINE"] = "";
+$arrLang["DATABASE_ENGINE_notes"] = "";
+$arrLang["LOADED_PHP_MODULES"] = "";
+$arrLang["LOADED_PHP_MODULES_notes"] = "";
+$arrLang["ABOUT_YOUR_APPLICATION"] = "";
+$arrLang["APPLICATION_VERSION"] = "";
+$arrLang["APPLICATION_VERSION_notes"] = "";
+$arrLang["DATABASE_VERSION"] = "";
+$arrLang["DATABASE_VERSION_notes"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["DEPARTMENT_MANAGER"] = "";
+$arrLang["DEPARTMENT_MANAGER_none"] = "";
+$arrLang["INCIDENTTYPE_MANAGER"] = "";
+$arrLang["INCIDENTTYPE_MANAGER_none"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["RADIOCODE_MANAGER"] = "";
+$arrLang["RADIOCODE_MANAGER_none"] = "";
+$arrLang["STREET_MANAGER"] = "";
+$arrLang["STREET_MANAGER_none"] = "";
+$arrLang["VEHICLE_MANAGER"] = "";
+$arrLang["VEHICLE_MANAGER_none"] = "";
+$arrLang["WARNINGTYPE_MANAGER"] = "";
+$arrLang["WARNINGTYPE_MANAGER_none"] = "";
+$arrLang["WARRANTTYPE_MANAGER"] = "";
+$arrLang["WARRANTTYPE_MANAGER_none"] = "";
+$arrLang["WEAPON_MANAGER"] = "";
+$arrLang["WEAPON_MANAGER_none"] = "";
+$arrLang["ABOUT_OPENCAD"] = "";
+$arrLang["RESET_DATA"] = "";
+$arrLang["ENVIRONMENTAL_DATA_OPTGRP"] = "";
+$arrLang["STREETS"] = "";
+$arrLang["VEHICLES"] = "";
+$arrLang["WEAPONS"] = "";
+$arrLang["CIVILIAN_DATA_OPTGRP"] = "";
+$arrLang["IDENTITIES"] = "";
+$arrLang["REGISTERED_PLATES"] = "";
+$arrLang["REGISTERED_WEAPONS"] = "";
+$arrLang["WARRANT_HISTORY"] = "";
+$arrLang["WARNING_HISTORY"] = "";
+$arrLang["LEO_SUPPORT_DATA_OPTGRP"] = "";
+$arrLang["CITATION_TYPES"] = "";
+$arrLang["INCIDENT_TYPES"] = "";
+$arrLang["RADIO_CODES"] = "";
+$arrLang["WARRANT_TYPES"] = "";
+$arrLang["WARNING_TYPES"] = "";
+$arrLang["RESET_ALL_DATA_OPTGRP"] = "";
+$arrLang["RESET_ALL_DATA"] = "";
 //** End Administrator/Moderator Console Strings  **/
 
 //** Begin Civillian Console Strings **/
@@ -399,7 +497,7 @@ $arrLang["MY_WARRANTS"] = "";
 $arrLang["MY_WARRANTS_none"] = "";
 $arrLang["CREATE_A_CALL"] = "";
 $arrLang["ADD_NEW_IDENTITY"] = "";
-$arrLang["Add_ADD_NEW_PLATE"] = "";
+$arrLang["ADD_NEW_VEHICLE"] = "";
 $arrLang["ADD_NEW_WEAPON"] = "";
 $arrLang["CIVILLIAN_DASHBOARD"] = "";
 $arrLang["VIEW_WARRANTS"] = "";
@@ -424,6 +522,7 @@ $arrLang["WARNINGS"] = "";
 $arrLang["CITATIONS"] = "";
 $arrLang["ARREST_REPORT"] = "";
 $arrLang["WARRANTS"] = "";
+$arrLang["SET_AREA_OF_PATROL"] = "";
 //** End CAD Console Strings *//
 
 //** Begin MDT Console Strings **/
@@ -438,5 +537,7 @@ $arrLang["VIEW_VEHICLE_BOLOS"] = "";
 $arrLang["PASSWORD"] = "";
 $arrLang["CHANGE_PASSWORD"] = "";
 $arrLang["MY_PRFILE"] ="";
+$arrLang["PROFILE_SUCCESS"] = "";
+$arrLang["PASSWORD_SUCCESS"] = "Successfully updated your password."
 //** End Profile Console Strings *//
 ?>

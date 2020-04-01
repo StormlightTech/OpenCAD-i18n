@@ -88,6 +88,8 @@ $arrLang['installation_guide'] = "Guia de Instalação";
 $arrLang['installation_type'] = "Tipo de Instalação";
 $arrLang['language'] = "Idioma";
 $arrLang['license'] = "Licença";
+$arrLang['Import'] = "";
+$arrLang['Export'] = "";
 $arrLang['loading'] = "carregando";
 $arrLang['mbstring_support'] = "Suporte a Multibyte String";
 $arrLang['magic_quotes_gpc'] = "Cotações mágicas para GPC (Obter/Publicar/Cookie)";
@@ -155,7 +157,7 @@ $arrLang['writable'] = "Gravável";
 $arrLang['core_configuration'] = "Configuração do núcleo";
 $arrLang['department_configuration'] = 'Configuração do Departamento';
 $arrLang['civilian_configuration'] = 'Configuração Civil'; 
-$arrLang['administrative_configuration'] = 'Configuração Administrativa';
+$arrLang['administrative_configuration'] = '';
 $arrLang['extra_settings'] = 'Configurações extras';
 
 //** Begin Core Configuration Strings **//
@@ -195,13 +197,44 @@ $arrLang['LOGGED_IN_SALT'] = 'Sal de login';
 $arrLang['NONCE_KEY'] = 'Chave de Nonce';
 $arrLang['NONCE_SALT'] = 'Sal de Nonce';
 $arrLang['SESSION_KEY'] = 'Chave de Sessão';
-
 //** End Core Configuration Strings **//
 
-//** Begin Police Strings **//
+//** Begin Login Strings **//
+$arrLang['LAW_ENFORCEMENT_OFFICER'] = "";
+$arrLang['FIRST_RESPONDER'] = "";
+$arrLang['CIVILIAN'] = "";
+$arrLang['SIGN_IN_TO_YOUR_ACCOUNT'] = "";
+$arrLang['LOGIN'] = "";
+$arrLang['REQUEST_ACCESS'] = "";
+//** End Login Strings **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['FIRST_RESPONDER_ACCESS_REQUEST'] = "";
+$arrLang['CIVILIAN_ACCESS_REQUEST'] = "";
+$arrLang['DIVISION_SELECT_ALL'] = "";
+$arrLang['IDENTIFIER_PLCAEHOLDER'] = "";
+//** End Registration Modal Strings  **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['CONFIRM_PASSWORD'] = "";
+//** End Registration Modal Strings **//
+
+//** Begin Dashboard Strings **//
+$arrLang['CIVILIAN_SERVICES'] = "";
+$arrLang['LAW_ENFORCEMENT_SERVICES'] = "";
+$arrLang['FIRST_RESPONDER_SERVICES'] = "";
+//** End Dashboard Strings **//
+
+
+//** Begin LEO Strings **//
 $arrLang['POLICE_NCIC'] = "";
 $arrLang['POLICE_NCIC_notes'] = "Mostra / Oculta a funcionalidade NCIC no console do MDT. Se 'verdadeiro' então o LEO será capaz de usar funções NCIC sem a necessidade de um dispatcher, senão se 'flase' então o LEO irá requerer a presença do dispatcher para usar a funcionalidade do NCIC.";
-//** End Police Strings **//
+
+$arrLang['POLICE_CALL_SELFASSIGN'] = "";
+$arrLang['POLICE_CALL_SELFASSIGN_notes'] = "";
+//** End LEO Strings **//
 
 //**  Begin Fire Strings **//
 $arrLang['FIRE_PANIC'] = "Pânico de Fogo";
@@ -215,6 +248,9 @@ $arrLang['FIRE_NCIC_NAME_notes'] = "Mostra/oculta funcionalidade Panic no consol
 
 $arrLang['FIRE_NCIC_PLATE'] = "Chapa de Fogo NCIC";
 $arrLang['FIRE_NCIC_PLATE_notes'] = "Mostra/oculta funcionalidade Panic no console MDT para Fogo. Se 'verdadeiro' então o pessoal de fogo será capaz de usar a função de pesquisa de placas NCIC, senão se 'falso' então o pessoal de fogo não será capaz de usar a função de pesquisa de placas NICI.";
+
+$arrLang['FIRE_CALL_SELFASSIGN'] = "";
+$arrLang['FIRE_CALL_SELFASSIGN_notes'] = "";
 //**  End Fire Strings **//
 
 //** Begin EMS Strings **//
@@ -266,6 +302,9 @@ $arrLang['CIV_LIMIT_MAX_WEAPONS_notes'] = "Se CIV_LIMIT_MAX_WEAPONS é '0' entã
 //** End Civilian Strings **//
 
 //** Begin Administrative Strings**//
+$arrLang['MODERATOR_USER_MANAGER'] = "";
+$arrLang['MODERATOR_USER_MANAGER_notes'] = "";
+
 $arrLang['MODERATOR_APPROVE_USER'] = "Usuário Aprovado pelo Moderador";
 $arrLang['MODERATOR_APPROVE_USER_notes'] = "Se 'true' então os moderadores serão capazes de aprovar novos pedidos de utilizador, caso contrário, se 'falso' então os moderadores não poderão aprovar novos pedidos de utilizador.";
 
@@ -288,7 +327,7 @@ $arrLang['MODERATOR_REMOVE_GROUP'] = "Remover Grupo de Moderadores";
 $arrLang['MODERATOR_REMOVE_GROUP_notes'] = "Se 'true' então os moderadores serão capazes de remover os grupos do utilizadores, caso contrário, os moderadores 'false' não serão capazes de remover os grupos do utilizadores.";
 
 $arrLang['MODERATOR_NCIC_EDITOR'] = "Editor NCIC do Moderador";
-$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "Se 'true' então os moderadores poderão acessar o editor NCIC, caso contrário, os moderadores 'false' não poderão acessar o editor NCCIC.";
+$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "";
 
 $arrLang['MODERATOR_DATA_MANAGER'] = "Moderador de gestão de dados";
 $arrLang['MODERATOR_DATA_MANAGER_notes'] = "Se 'verdadeiro' então os moderadores serão capazes de acessar a Gestão de Dados do Jogo, caso 'falso' então os moderadores não poderão acessar a Gestão de Dados do Jogo.";
@@ -308,7 +347,7 @@ $arrLang['MODERATOR_DATAMAN_RADIOCODES_notes'] = "Se 'true' então os moderadore
 $arrLang['MODERATOR_DATAMAN_STREETS'] = "Editor de Ruas do Moderador";
 $arrLang['MODERATOR_DATAMAN_STREETS_notes'] = "Se 'true' então os moderadores terão acesso ao módulo Gestão de Ruas do Gestor de Dados do Jogo, senão se 'falso' então os moderadores serão negados o acesso.";
 
-$arrLang['MODERATOR_DATAMAN_VECHILES'] = "Editor de Veículos Moderadores";
+$arrLang['MODERATOR_DATAMAN_VEHICLES'] = "";
 $arrLang['MODERATOR_DATAMAN_VEHICLES_notes'] = "Se 'true' então os moderadores terão acesso ao módulo Gestão de Veículos do Gestor de Dados do Jogo, senão se 'falso' então os moderadores serão negados o acesso.";
 
 $arrLang['MODERATOR_DATAMAN_WARNINGTYPES'] = "Editor de Tipos de Alerta do Moderador";
@@ -373,6 +412,11 @@ $arrLang["NCIC_PLATE_LOOKUP"] = "Pesquisa de placa NCIC";
 $arrLang["NCIC_WEAPON_LOOKUP"] = "Pesquisa de Armas NCIC";
 $arrLang["SEND"] = "Enviar";
 $arrLang["MY_PROFILE"] = "Meu Perfil";
+$arrLang["APPLICATIONS"] = "";
+$arrLang["SETTINGS"] = "";
+$arrLang["REQUEST"] = "";
+$arrLang["CLOSE"] = "";
+$arrLang["RESET"] = "";
 //** End Common Global Strings */
 
 //** Begin Administrator/Moderator Console Strings  **/
@@ -385,9 +429,8 @@ $arrLang["CAD_USER_MANAGEMENT"] = "Gerenciamento de Usuário CAD";
 $arrLang["ACCOUNT_MANAGEMENT"] = "Gerenciamento de contas";
 $arrLang["SUSPEND_WITH_REASON"] = "Suspender com o motivo";
 $arrLang["SUSPEND_WITHOUT_REASON"] = "Suspender sem razão";
-$arrLang["NCIC_EDITOR"] = "Editor NCIC";
-$arrLang["NCIC_NAMES_DB"] = "Nenhum resultado encontrado no banco de dados NCIC Names.";
-$arrLang["NCIC_NAMES_DB_none"] = "Banco de Dados de Nomes NCIC";
+$arrLang["NCIC_NAMES_DB"] = ""; 
+$arrLang["NCIC_NAMES_DB_none"] = "";
 $arrLang["NCIC_VEHICLES_DB"] = "Banco de Dados de Veículos NCIC";
 $arrLang["NCIC_VEHICLES_DB_none"] = "Nenhum resultado encontrado no banco de dados de veículos NCIC.";
 $arrLang["NCIC_WEAPONS_DB"] = "Banco de Dados de Armas NCIC";
@@ -400,6 +443,61 @@ $arrLang["NCIC_ARRESTS_DB"] = "Banco de Dados de Detenções NCIC";
 $arrLang["NCIC_ARRESTS_DB_none"] = "Nenhum resultado encontrado no banco de dados de Detenções NCIC.";
 $arrLang["NCIC_WARRANTS_DB"] = "Banco de Dados de Guerreiros NCIC";
 $arrLang["NCIC_WARRANTS_DB_none"] = "Nenhum resultado encontrado na base de dados de Guerres NCIC";
+$arrLang["USER_MANAGER"] = "";
+$arrLang["NCIC_EDITOR"] = "Editor NCIC";
+$arrLang["DATA_MANAGER"] = "";
+$arrLang["ABOUT_ENVIRONMENT"] = "";
+$arrLang["PHP_VERSION"] = "";
+$arrLang["PHP_VERSION_notes"] = "";
+$arrLang["DATABASE_ENGINE"] = "";
+$arrLang["DATABASE_ENGINE_notes"] = "";
+$arrLang["LOADED_PHP_MODULES"] = "";
+$arrLang["LOADED_PHP_MODULES_notes"] = "";
+$arrLang["ABOUT_YOUR_APPLICATION"] = "";
+$arrLang["APPLICATION_VERSION"] = "";
+$arrLang["APPLICATION_VERSION_notes"] = "";
+$arrLang["DATABASE_VERSION"] = "";
+$arrLang["DATABASE_VERSION_notes"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["DEPARTMENT_MANAGER"] = "";
+$arrLang["DEPARTMENT_MANAGER_none"] = "";
+$arrLang["INCIDENTTYPE_MANAGER"] = "";
+$arrLang["INCIDENTTYPE_MANAGER_none"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["RADIOCODE_MANAGER"] = "";
+$arrLang["RADIOCODE_MANAGER_none"] = "";
+$arrLang["STREET_MANAGER"] = "";
+$arrLang["STREET_MANAGER_none"] = "";
+$arrLang["VEHICLE_MANAGER"] = "";
+$arrLang["VEHICLE_MANAGER_none"] = "";
+$arrLang["WARNINGTYPE_MANAGER"] = "";
+$arrLang["WARNINGTYPE_MANAGER_none"] = "";
+$arrLang["WARRANTTYPE_MANAGER"] = "";
+$arrLang["WARRANTTYPE_MANAGER_none"] = "";
+$arrLang["WEAPON_MANAGER"] = "";
+$arrLang["WEAPON_MANAGER_none"] = "";
+$arrLang["ABOUT_OPENCAD"] = "";
+$arrLang["RESET_DATA"] = "";
+$arrLang["ENVIRONMENTAL_DATA_OPTGRP"] = "";
+$arrLang["STREETS"] = "";
+$arrLang["VEHICLES"] = "";
+$arrLang["WEAPONS"] = "";
+$arrLang["CIVILIAN_DATA_OPTGRP"] = "";
+$arrLang["IDENTITIES"] = "";
+$arrLang["REGISTERED_PLATES"] = "";
+$arrLang["REGISTERED_WEAPONS"] = "";
+$arrLang["WARRANT_HISTORY"] = "";
+$arrLang["WARNING_HISTORY"] = "";
+$arrLang["LEO_SUPPORT_DATA_OPTGRP"] = "";
+$arrLang["CITATION_TYPES"] = "";
+$arrLang["INCIDENT_TYPES"] = "";
+$arrLang["RADIO_CODES"] = "";
+$arrLang["WARRANT_TYPES"] = "";
+$arrLang["WARNING_TYPES"] = "";
+$arrLang["RESET_ALL_DATA_OPTGRP"] = "";
+$arrLang["RESET_ALL_DATA"] = "";
 //** End Administrator/Moderator Console Strings  **/
 
 //** Begin Civillian Console Strings **/
@@ -414,7 +512,7 @@ $arrLang["MY_WARRANTS"] = "Meus Guerreiros";
 $arrLang["MY_WARRANTS_none"] = "Nenhum resultado encontrado no banco de dados de garantias.";
 $arrLang["CREATE_A_CALL"] = "Criar uma chamada";
 $arrLang["ADD_NEW_IDENTITY"] = "Adicionar nova identidade";
-$arrLang["Add_ADD_NEW_PLATE"] = "Adicionar nova Matricula";
+$arrLang["ADD_NEW_VEHICLE"] = "";
 $arrLang["ADD_NEW_WEAPON"] = "Adicionar nova arma";
 $arrLang["CIVILLIAN_DASHBOARD"] = "Painel Civis";
 $arrLang["VIEW_WARRANTS"] = "";
@@ -439,6 +537,7 @@ $arrLang["WARNINGS"] = "Avisos";
 $arrLang["CITATIONS"] = "Referências";
 $arrLang["ARREST_REPORT"] = "Detenção REPORT";
 $arrLang["WARRANTS"] = "Guerreiros";
+$arrLang["SET_AREA_OF_PATROL"] = "";
 //** End CAD Console Strings *//
 
 //** Begin MDT Console Strings **/
@@ -453,5 +552,7 @@ $arrLang["VIEW_VEHICLE_BOLOS"] = "Ver BOLOs do Veículo";
 $arrLang["PASSWORD"] = "Senha";
 $arrLang["CHANGE_PASSWORD"] = "Alterar senha";
 $arrLang["MY_PRFILE"] ="Meu Perfil";
+$arrLang["PROFILE_SUCCESS"] = "";
+$arrLang["PASSWORD_SUCCESS"] = "Successfully updated your password."
 //** End Profile Console Strings *//
 ?>

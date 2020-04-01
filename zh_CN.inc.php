@@ -88,6 +88,8 @@ $arrLang['installation_guide'] = "安装指南";
 $arrLang['installation_type'] = "安装类型";
 $arrLang['language'] = "语言";
 $arrLang['license'] = "授权";
+$arrLang['Import'] = "";
+$arrLang['Export'] = "";
 $arrLang['loading'] = "加载中";
 $arrLang['mbstring_support'] = "多字节字符串支持";
 $arrLang['magic_quotes_gpc'] = "GPC (Get/Post/Cookie) Magic 引用";
@@ -155,7 +157,7 @@ $arrLang['writable'] = "可写入";
 $arrLang['core_configuration'] = "核心配置";
 $arrLang['department_configuration'] = '部门配置';
 $arrLang['civilian_configuration'] = '文职人员配置'; 
-$arrLang['administrative_configuration'] = '管理配置';
+$arrLang['administrative_configuration'] = '';
 $arrLang['extra_settings'] = '额外设置';
 
 //** Begin Core Configuration Strings **//
@@ -195,13 +197,44 @@ $arrLang['LOGGED_IN_SALT'] = '登录Salt';
 $arrLang['NONCE_KEY'] = 'Nonce 密钥';
 $arrLang['NONCE_SALT'] = 'Nonce Salt';
 $arrLang['SESSION_KEY'] = '会话密钥';
-
 //** End Core Configuration Strings **//
 
-//** Begin Police Strings **//
+//** Begin Login Strings **//
+$arrLang['LAW_ENFORCEMENT_OFFICER'] = "";
+$arrLang['FIRST_RESPONDER'] = "";
+$arrLang['CIVILIAN'] = "";
+$arrLang['SIGN_IN_TO_YOUR_ACCOUNT'] = "";
+$arrLang['LOGIN'] = "";
+$arrLang['REQUEST_ACCESS'] = "";
+//** End Login Strings **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['FIRST_RESPONDER_ACCESS_REQUEST'] = "";
+$arrLang['CIVILIAN_ACCESS_REQUEST'] = "";
+$arrLang['DIVISION_SELECT_ALL'] = "";
+$arrLang['IDENTIFIER_PLCAEHOLDER'] = "";
+//** End Registration Modal Strings  **//
+
+
+//** Begin Registration Modal Strings **//
+$arrLang['CONFIRM_PASSWORD'] = "";
+//** End Registration Modal Strings **//
+
+//** Begin Dashboard Strings **//
+$arrLang['CIVILIAN_SERVICES'] = "";
+$arrLang['LAW_ENFORCEMENT_SERVICES'] = "";
+$arrLang['FIRST_RESPONDER_SERVICES'] = "";
+//** End Dashboard Strings **//
+
+
+//** Begin LEO Strings **//
 $arrLang['POLICE_NCIC'] = "";
 $arrLang['POLICE_NCIC_notes'] = "在MDT控制台上显示/隐藏NCIC功能。如果'是'那么LEO将能够使用NCIC功能而无需调度员，否则如果'flase'则LEO将要求调度员使用NCIC功能。";
-//** End Police Strings **//
+
+$arrLang['POLICE_CALL_SELFASSIGN'] = "";
+$arrLang['POLICE_CALL_SELFASSIGN_notes'] = "";
+//** End LEO Strings **//
 
 //**  Begin Fire Strings **//
 $arrLang['FIRE_PANIC'] = "火警裤";
@@ -215,6 +248,9 @@ $arrLang['FIRE_NCIC_NAME_notes'] = "在 MDT 控制台显示/隐藏 Panic 功能�
 
 $arrLang['FIRE_NCIC_PLATE'] = "消防原板";
 $arrLang['FIRE_NCIC_PLATE_notes'] = "在 MDT 控制台显示/隐藏 Panic 功能用于消防。如果“真”，消防人员将能够使用 NCC 盘查询功能，否则“false”，消防人员将无法使用 NICI 板块查找函数。";
+
+$arrLang['FIRE_CALL_SELFASSIGN'] = "";
+$arrLang['FIRE_CALL_SELFASSIGN_notes'] = "";
 //**  End Fire Strings **//
 
 //** Begin EMS Strings **//
@@ -266,6 +302,9 @@ $arrLang['CIV_LIMIT_MAX_WEAPONS_notes'] = "如果CIV_LIMIT_MAX_WEAPONS'0' 则平
 //** End Civilian Strings **//
 
 //** Begin Administrative Strings**//
+$arrLang['MODERATOR_USER_MANAGER'] = "";
+$arrLang['MODERATOR_USER_MANAGER_notes'] = "";
+
 $arrLang['MODERATOR_APPROVE_USER'] = "版主审核用户";
 $arrLang['MODERATOR_APPROVE_USER_notes'] = "如果“true”那么管理员将能够批准新用户请求，否则，如果“false”那么管理器将无法批准新用户请求。";
 
@@ -288,7 +327,7 @@ $arrLang['MODERATOR_REMOVE_GROUP'] = "版主移除群组";
 $arrLang['MODERATOR_REMOVE_GROUP_notes'] = "如果“true”那么管理员将能够删除用户组，否则“false”管理器将无法删除用户组。";
 
 $arrLang['MODERATOR_NCIC_EDITOR'] = "主持人 NCC 编辑器";
-$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "如果“true”那么管理员将能够访问NCIC编辑器，否则“false”管理器将无法访问NCIC编辑器。";
+$arrLang['MODERATOR_NCIC_EDITOR_notes'] = "";
 
 $arrLang['MODERATOR_DATA_MANAGER'] = "主持人数据管理器";
 $arrLang['MODERATOR_DATA_MANAGER_notes'] = "如果“true”那么管理员将能够访问游戏数据管理器，否则“false”管理器将无法访问Gam数据管理器。";
@@ -308,7 +347,7 @@ $arrLang['MODERATOR_DATAMAN_RADIOCODES_notes'] = "如果“true”那么管理�
 $arrLang['MODERATOR_DATAMAN_STREETS'] = "版主Streets 编辑器";
 $arrLang['MODERATOR_DATAMAN_STREETS_notes'] = "如果“true”那么管理员将可以访问游戏数据管理器的Streets管理器模块，否则“false”则管理员将被拒绝访问。";
 
-$arrLang['MODERATOR_DATAMAN_VECHILES'] = "";
+$arrLang['MODERATOR_DATAMAN_VEHICLES'] = "";
 $arrLang['MODERATOR_DATAMAN_VEHICLES_notes'] = "如果“true”那么管理员将可以访问游戏数据管理器的车辆管理器模块，否则“false”管理员将被拒绝访问。";
 
 $arrLang['MODERATOR_DATAMAN_WARNINGTYPES'] = "版主警告类型编辑器";
@@ -373,6 +412,11 @@ $arrLang["NCIC_PLATE_LOOKUP"] = "NCC 高原查询";
 $arrLang["NCIC_WEAPON_LOOKUP"] = "NCC 武器查询";
 $arrLang["SEND"] = "发送";
 $arrLang["MY_PROFILE"] = "我的个人资料";
+$arrLang["APPLICATIONS"] = "";
+$arrLang["SETTINGS"] = "";
+$arrLang["REQUEST"] = "";
+$arrLang["CLOSE"] = "";
+$arrLang["RESET"] = "";
 //** End Common Global Strings */
 
 //** Begin Administrator/Moderator Console Strings  **/
@@ -385,8 +429,7 @@ $arrLang["CAD_USER_MANAGEMENT"] = "CAD 用户管理";
 $arrLang["ACCOUNT_MANAGEMENT"] = "账户管理";
 $arrLang["SUSPEND_WITH_REASON"] = "中止原因";
 $arrLang["SUSPEND_WITHOUT_REASON"] = "无原因暂停";
-$arrLang["NCIC_EDITOR"] = "NCC 编辑器";
-$arrLang["NCIC_NAMES_DB"] = "";
+$arrLang["NCIC_NAMES_DB"] = ""; 
 $arrLang["NCIC_NAMES_DB_none"] = "";
 $arrLang["NCIC_VEHICLES_DB"] = "NCC 车辆数据库";
 $arrLang["NCIC_VEHICLES_DB_none"] = "荷兰国家中心车辆数据库中没有找到任何结果。";
@@ -400,6 +443,61 @@ $arrLang["NCIC_ARRESTS_DB"] = "NCC 逮捕数据库";
 $arrLang["NCIC_ARRESTS_DB_none"] = "在 NCCC Arrests 数据库中没有找到任何结果。";
 $arrLang["NCIC_WARRANTS_DB"] = "NCC 验证数据库";
 $arrLang["NCIC_WARRANTS_DB_none"] = "在 NCCC 支持数据库中没有找到任何结果";
+$arrLang["USER_MANAGER"] = "";
+$arrLang["NCIC_EDITOR"] = "NCC 编辑器";
+$arrLang["DATA_MANAGER"] = "";
+$arrLang["ABOUT_ENVIRONMENT"] = "";
+$arrLang["PHP_VERSION"] = "";
+$arrLang["PHP_VERSION_notes"] = "";
+$arrLang["DATABASE_ENGINE"] = "";
+$arrLang["DATABASE_ENGINE_notes"] = "";
+$arrLang["LOADED_PHP_MODULES"] = "";
+$arrLang["LOADED_PHP_MODULES_notes"] = "";
+$arrLang["ABOUT_YOUR_APPLICATION"] = "";
+$arrLang["APPLICATION_VERSION"] = "";
+$arrLang["APPLICATION_VERSION_notes"] = "";
+$arrLang["DATABASE_VERSION"] = "";
+$arrLang["DATABASE_VERSION_notes"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["DEPARTMENT_MANAGER"] = "";
+$arrLang["DEPARTMENT_MANAGER_none"] = "";
+$arrLang["INCIDENTTYPE_MANAGER"] = "";
+$arrLang["INCIDENTTYPE_MANAGER_none"] = "";
+$arrLang["CITATIONTYPE_MANAGER"] = "";
+$arrLang["CITATIONTYPE_MANAGER_none"] = "";
+$arrLang["RADIOCODE_MANAGER"] = "";
+$arrLang["RADIOCODE_MANAGER_none"] = "";
+$arrLang["STREET_MANAGER"] = "";
+$arrLang["STREET_MANAGER_none"] = "";
+$arrLang["VEHICLE_MANAGER"] = "";
+$arrLang["VEHICLE_MANAGER_none"] = "";
+$arrLang["WARNINGTYPE_MANAGER"] = "";
+$arrLang["WARNINGTYPE_MANAGER_none"] = "";
+$arrLang["WARRANTTYPE_MANAGER"] = "";
+$arrLang["WARRANTTYPE_MANAGER_none"] = "";
+$arrLang["WEAPON_MANAGER"] = "";
+$arrLang["WEAPON_MANAGER_none"] = "";
+$arrLang["ABOUT_OPENCAD"] = "";
+$arrLang["RESET_DATA"] = "";
+$arrLang["ENVIRONMENTAL_DATA_OPTGRP"] = "";
+$arrLang["STREETS"] = "";
+$arrLang["VEHICLES"] = "";
+$arrLang["WEAPONS"] = "";
+$arrLang["CIVILIAN_DATA_OPTGRP"] = "";
+$arrLang["IDENTITIES"] = "";
+$arrLang["REGISTERED_PLATES"] = "";
+$arrLang["REGISTERED_WEAPONS"] = "";
+$arrLang["WARRANT_HISTORY"] = "";
+$arrLang["WARNING_HISTORY"] = "";
+$arrLang["LEO_SUPPORT_DATA_OPTGRP"] = "";
+$arrLang["CITATION_TYPES"] = "";
+$arrLang["INCIDENT_TYPES"] = "";
+$arrLang["RADIO_CODES"] = "";
+$arrLang["WARRANT_TYPES"] = "";
+$arrLang["WARNING_TYPES"] = "";
+$arrLang["RESET_ALL_DATA_OPTGRP"] = "";
+$arrLang["RESET_ALL_DATA"] = "";
 //** End Administrator/Moderator Console Strings  **/
 
 //** Begin Civillian Console Strings **/
@@ -414,7 +512,7 @@ $arrLang["MY_WARRANTS"] = "我的许可证";
 $arrLang["MY_WARRANTS_none"] = "在逮捕证数据库中找不到结果。";
 $arrLang["CREATE_A_CALL"] = "创建通话";
 $arrLang["ADD_NEW_IDENTITY"] = "添加新身份";
-$arrLang["Add_ADD_NEW_PLATE"] = "";
+$arrLang["ADD_NEW_VEHICLE"] = "";
 $arrLang["ADD_NEW_WEAPON"] = "添加新的武器";
 $arrLang["CIVILLIAN_DASHBOARD"] = "Civillian 仪表板";
 $arrLang["VIEW_WARRANTS"] = "";
@@ -439,6 +537,7 @@ $arrLang["WARNINGS"] = "警告";
 $arrLang["CITATIONS"] = "引用";
 $arrLang["ARREST_REPORT"] = "逮捕报告";
 $arrLang["WARRANTS"] = "批准书";
+$arrLang["SET_AREA_OF_PATROL"] = "";
 //** End CAD Console Strings *//
 
 //** Begin MDT Console Strings **/
@@ -453,5 +552,7 @@ $arrLang["VIEW_VEHICLE_BOLOS"] = "查看车辆";
 $arrLang["PASSWORD"] = "密码";
 $arrLang["CHANGE_PASSWORD"] = "更改密码";
 $arrLang["MY_PRFILE"] ="我的个人资料";
+$arrLang["PROFILE_SUCCESS"] = "";
+$arrLang["PASSWORD_SUCCESS"] = "Successfully updated your password."
 //** End Profile Console Strings *//
 ?>
