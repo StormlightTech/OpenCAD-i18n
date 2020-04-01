@@ -13,3 +13,4 @@ info.php
 .MESSAGE
 .travis.yml
 mirror_ssh
+log_file
